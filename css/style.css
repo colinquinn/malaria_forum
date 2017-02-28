@@ -154,7 +154,7 @@ a {
 }
 
 #tf-portfolio {
-    background: #f1f1f1;
+    background: #2F937B;
     padding: 5% 0 8% 0;
     text-align: center;
 }
@@ -283,7 +283,7 @@ ul.why-me li {
 }
 
 #tf-contact {
-    background: url(../img/08.jpg);
+    background: url(../img/world-map-design-events.png);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
