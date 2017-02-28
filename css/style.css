@@ -283,7 +283,8 @@ ul.why-me li {
 }
 
 #tf-contact {
-    background: url(../img/black_fade.jpg);
+    /*background: url(../img/black_fade.jpg);*/
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;

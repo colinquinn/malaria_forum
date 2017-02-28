@@ -49,7 +49,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">Ifakara Health Institute</a>
+                        <!--<a class="navbar-brand" href="index.html">Ifakara Health Institute</a>-->
+                        <img class="navbar-brand" src="img/IHI_LOGO.png" style="padding:inherit" />
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -157,7 +158,7 @@
                         <div class="pm-staff-profile-container">
                             <div class="pm-staff-profile-image-wrapper text-center">
                                 <div class="pm-staff-profile-image">
-                                    <img src="http://picturesbytodd.com/wp-content/uploads/2013/07/Studio-Head-shots-Professional-Main-Line-Philadelphia.jpg" alt="" class="img-thumbnail img-circle img-responsive" style="height:75%;width:75%" />
+                                    <img src="img/headshot1.jpg" alt="" class="img-thumbnail img-circle img-responsive" style="height:75%;width:75%" />
                                 </div>
                             </div>
                         </div>
@@ -187,7 +188,7 @@
                         <div class="pm-staff-profile-container">
                             <div class="pm-staff-profile-image-wrapper text-center">
                                 <div class="pm-staff-profile-image">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Dr_thomas_middelhoff.jpg/180px-Dr_thomas_middelhoff.jpg" alt="" class="img-thumbnail img-circle img-responsive" style="height:75%;width:75%" />
+                                    <img src="img/headshot2.jpg" alt="" class="img-thumbnail img-circle img-responsive" style="height:75%;width:75%" />
                                 </div>
                             </div>
                         </div>
@@ -201,7 +202,7 @@
                         <div class="pm-staff-profile-container">
                             <div class="pm-staff-profile-image-wrapper text-center" style="padding-left:10%">
                                 <div class="pm-staff-profile-image">
-                                    <img src="https://s-media-cache-ak0.pinimg.com/originals/b5/32/fe/b532fe9815455fcdbb7508eec68ead71.jpg" alt="" class="img-thumbnail img-circle img-responsive" style="height:75%;width:75%" />
+                                    <img src="img/headshot3.jpg" alt="" class="img-thumbnail img-circle img-responsive" style="height:75%;width:75%" />
                                 </div>
                             </div>
                         </div>
@@ -301,44 +302,63 @@
     <div class="row"></div>
     <div id="register"></div>
     <div id="tf-contact">
-        <div class="section-title">
-            <h3>Register</h3>
-            <p>Sign up to be apart of the 5<sup>th</sup> annual Malaria forum</p>
+        <div class="section-title" style="color:#2F937B">
+            <h2>Register</h2> <br />
+            <h4>Sign up to be apart of the 5<sup>th</sup> annual Malaria forum</h4>
             <hr>
         </div>
         <div class="container row center-block">
             <div class="col-md-6">
+                <br /><br /><br /><br />
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6380.455552293109!2d39.20780098592853!3d-6.793045631463054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4bae169bd6f1%3A0x940f6b26a086a1dd!2sDar+es+Salaam!5e0!3m2!1sen!2stz!4v1487842560297" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <div class="space"></div>
                 <div class="row">
                     <div class="col-md-12 col-md-offset-1">
+
+                        <!-- HERE BEGINS THE FORM -->
                         <form id="contact">
+                            <h4>Enter Your Information Below:</h4>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Organization">
-                            </div>
-                            <div class="text-primary bg-success">
-                                <p>Please select which days you plan to attend:</p>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Day 1</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Day 2</label>
-                                </div>
+                                <input type="email" class="form-control" id="name" placeholder="Enter Full Name">
                             </div>
 
-                            <!--<div class="form-group">
-                                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-                            </div>-->
-                            <button type="submit" class="btn btn-primary my-btn dark">Submit</button>
+                            <p><b>Prefix:</b></p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Mr</label>
+                                &nbsp;&nbsp;
+                                <label><input type="checkbox" value="">Mrs</label>
+                                &nbsp;&nbsp;
+                                <label><input type="checkbox" value="">Miss</label>
+                                &nbsp;&nbsp;
+                                <label><input type="checkbox" value="">Dr</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="organization" placeholder="Enter Organization Name">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="position" placeholder="Enter Position Name">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="email" placeholder="Enter Email">
+                            </div>
+
+                            <p><b>Participant :</b></p>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Presenter</label>
+                                &nbsp;&nbsp;
+                                <label><input type="checkbox" value="">Speaker</label>
+                                &nbsp;&nbsp;
+                                <label><input type="checkbox" value="">General</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary my-btn dark" onclick="successAlert">Submit</button>
                         </form>
+                        <!-- END OF FORM -->
                     </div>
                 </div>
             </div>
@@ -346,95 +366,16 @@
     </div>
 
     <div class="row container">
-        <div class="col-md-0">
+        <div class="col-md-0 center-block">
             <form class="form-signin">
                 <div class="container text-center">
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
+                        <div class="col-md-9 col-md-offset-2">
                             <div class="panel panel-default">
                                 <div class="panel panel-primary">
 
                                     <h3 class="text-center">
-                                        Day 1 Schedule
-                                    </h3>
-
-                                    <div class="panel-body">
-
-
-                                        <table class="table table-striped table-condensed">
-                                            <thead>
-                                                <tr>
-                                                    <th>Date</th>
-                                                    <th>Speaker </th>
-                                                    <th>Topic</th>
-                                                    <th>Start Time</th>
-                                                    <th>End Time</th>
-
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>2015/03/06</td>
-                                                    <td>Colin Quinn</td>
-                                                    <td>Topic 1</td>
-                                                    <td>12:00 PM</td>
-                                                    <td>2:00 PM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2015/03/06</td>
-                                                    <td>Colin Quinn</td>
-                                                    <td>Topic 2</td>
-                                                    <td>12:00 PM</td>
-                                                    <td>2:00 PM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2015/03/06</td>
-                                                    <td>Colin Quinn</td>
-                                                    <td>Topic 3</td>
-                                                    <td>12:00 PM</td>
-                                                    <td>2:00 PM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2015/03/06</td>
-                                                    <td>Colin Quinn</td>
-                                                    <td>LUNCH</td>
-                                                    <td>12:00 PM</td>
-                                                    <td>2:00 PM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2015/03/06</td>
-                                                    <td>Colin Quinn</td>
-                                                    <td>Topic 4</td>
-                                                    <td>12:00 PM</td>
-                                                    <td>2:00 PM</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2015/03/06</td>
-                                                    <td>Colin Quinn</td>
-                                                    <td>Topic 5</td>
-                                                    <td>12:00 PM</td>
-                                                    <td>2:00 PM</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="col-md-6">
-            <form class="form-signin col-md-6">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="panel panel-default">
-                                <div class="panel panel-primary">
-
-                                    <h3 class="text-center">
-                                        Day 2 Schedule
+                                        Forum Schedule
                                     </h3>
 
                                     <div class="panel-body">
