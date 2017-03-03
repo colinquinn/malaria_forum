@@ -29,6 +29,14 @@ h4 {
     color: rgb(47, 147, 123);
 }
 
+.table {
+    border-radius: 30px;
+    width: 50%;
+    margin: auto;
+    float: none;
+    border: solid;
+}
+
 p {
     font-size: 13px;
 }
